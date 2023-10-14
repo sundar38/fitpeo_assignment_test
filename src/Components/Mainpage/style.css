@@ -1,0 +1,26 @@
+.Mainpage{
+    position: absolute;
+    left: 300px;
+}
+.mainpage{    
+    display: flex;
+    gap: 5px;
+    margin-top: 5px
+}
+input{
+    position: relative;
+    left: 300px;
+}
+table{
+    width: 90%;
+}
+table, tr{
+    border: 1px solid black;
+}
+.search{
+    position: relative;
+    left: 20px
+}
+.chart{
+    display: flex;
+}

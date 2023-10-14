@@ -1,0 +1,37 @@
+.sidesection{    
+    position: absolute;
+    left: 0;
+    color: white;
+    margin-top: 0;    
+    height: 100vh;
+    width: 20vw;
+    background-color:  blue;
+}
+span{
+    position: relative;
+    bottom: 6px;
+    padding-left: 8px;
+}
+.arrow{
+    position: relative;
+    left: 20px;
+}
+.bottomtext{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
+.textandname{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+/* .bottomtext{
+    background-color: lightblue;
+} */
+.iconright{
+    position: relative;
+    left: 50px;  
+}
+
+

@@ -1,0 +1,8 @@
+.cards{
+    border: 1px solid black;
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    /* color: white;
+    text-shadow: 2px 2px 4px #000000; */
+}
