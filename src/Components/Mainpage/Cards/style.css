@@ -1,8 +1,14 @@
 .cards{
     border: 1px solid black;
-    width: 250px;
-    height: 150px;
+    width: 200px;
+    height: 120px;
     border-radius: 10px;
+    display: flex;
     /* color: white;
     text-shadow: 2px 2px 4px #000000; */
+}
+.image{
+    position: relative;
+    top: 10px;
+    padding: 14px;
 }

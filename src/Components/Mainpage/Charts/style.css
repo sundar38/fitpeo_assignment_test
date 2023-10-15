@@ -1,5 +1,22 @@
 .bar{
-    padding: 20px;
+    padding: 10px;
+    padding-bottom: 0px;
     width: 80%;
-    height: 270px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+.text{
+    /* position: relative;
+    bottom: 20px;
+    right: 145px; */
+    display: flex;    
+}
+.text select{
+    width: 92px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+   
 }

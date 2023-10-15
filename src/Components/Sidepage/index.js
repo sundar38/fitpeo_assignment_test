@@ -10,6 +10,7 @@ import LiveHelpOutlinedIcon from '@mui/icons-material/LiveHelpOutlined';
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 import PersonOutlineRoundedIcon from '@mui/icons-material/PersonOutlineRounded';
+
 function Sidepage() {
   return (
     <div>
@@ -18,33 +19,33 @@ function Sidepage() {
               <HexagonOutlinedIcon/>
               <span>Dashboard</span>              
             </p>            
-            <p>
+            <p className='heading'>
               <KeyRoundedIcon/>
               <span>Dashboard</span>              
             </p>
             
-            <p>
+            <p className='heading'>
               <ViewInArRoundedIcon/>
               <span >Product</span>  
               <KeyboardArrowRightOutlinedIcon/>        
             </p>          
             
-            <p>
+            <p className='heading'>
               <AccountBoxOutlinedIcon/>
               <span>Customers</span> 
-              <KeyboardArrowRightOutlinedIcon/>
+              <KeyboardArrowRightOutlinedIcon />
             </p>
-            <p>
+            <p className='heading'>
               <AccountBalanceWalletOutlinedIcon/>
               <span>Income</span>
               <KeyboardArrowRightOutlinedIcon/>
             </p>
-            <p>
+            <p className='heading'>
               <CookieOutlinedIcon/>
               <span>Promote</span>
               <KeyboardArrowRightOutlinedIcon/>
             </p>
-            <p>
+            <p className='heading'>
               <LiveHelpOutlinedIcon/>
               <span>Help</span>
               <KeyboardArrowRightOutlinedIcon/>

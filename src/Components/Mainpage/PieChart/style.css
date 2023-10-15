@@ -1,0 +1,10 @@
+.piechart{ 
+    padding: 10px ;
+    margin:  2.5px;
+}
+.entire{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}

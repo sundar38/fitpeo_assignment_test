@@ -14,7 +14,7 @@ import {
   )
 function PieChart() {
     const data={
-        labels: ["one", "two", "three"],
+        // labels: ["one", "two", "three"],
         datasets: [
             {
                 data: [3,6,9],
@@ -22,11 +22,15 @@ function PieChart() {
             }
         ]
     }
-    const options={}
-  return (
-    <div style={{height: "250px",}}>
-        <Pie data={data} options={options}></Pie>
+ 
+  return (  
+    <div className='entire'>
+        <p>Customers that buy products</p>
+    <div style={{height: "250px"}} className='piechart'>
+        <Pie data={data} ></Pie>
     </div>
+    </div>
+   
   )
 }
 
