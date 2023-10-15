@@ -18,7 +18,7 @@ function Mainpage() {
       <input type='text' placeholder='Search' className='search'></input>
       </div>  
       <div className='mainpage'>
-        <Cards name="Earning" value={273} varypercent={37.8} comp={<CurrencyExchangeRoundedIcon/>} incordec={<ArrowUpwardIcon/>}/>
+        <Cards name="Earning" value={273} varypercent={38} comp={<CurrencyExchangeRoundedIcon/>} incordec={<ArrowUpwardIcon/>}/>
         <Cards name="Orders" value={273} varypercent={2} comp={<SpeakerNotesRoundedIcon/>} incordec={<ArrowDownwardIcon/>}/>
         <Cards name="Balance" value={273} varypercent={2} comp={<AccountBalanceWalletOutlinedIcon/>} incordec={<ArrowDownwardIcon/>}/>
         <Cards name="Total Sales" value={273} varypercent={11} comp={<ShoppingCartIcon/>} incordec={<ArrowUpwardIcon/>}/>
@@ -29,14 +29,16 @@ function Mainpage() {
       </div>
 
       <table>
-        <tr>
+        <tr className='firstrow'>
           <td> Product Sell</td>
+          <div className='rowarrange'>
           <td><input type='text' placeholder='Search' className='search'/></td>
           <td>
             <select>
               <option value="last">Last 30 Days</option>
             </select>
           </td>
+          </div>
         </tr>
         <tr>
           <th>Product Name</th>

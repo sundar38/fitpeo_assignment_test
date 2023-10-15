@@ -11,12 +11,19 @@
     /* position: relative;
     bottom: 20px;
     right: 145px; */
-    display: flex;    
+    display: flex;  
+    justify-content: space-between;  
 }
-.text select{
+/* .text select{
     width: 92px;
     height: 20px;
     position: relative;
     left: 200px;
    
+} */
+@media screen and (max-width: 800px){
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
 }

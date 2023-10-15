@@ -29,3 +29,29 @@ table, tr{
     display: flex;
     justify-content: space-between;
 }
+.rowarrange{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width: 800px){
+    .chart{
+        display: flex;
+        flex-direction: column;
+    }
+    .textandinput{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainpage{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .firstrow{
+        display: flex;
+        flex-direction: column;
+    } */
+    .rowarrange{
+        display: flex;
+        flex-direction: column;
+    }
+}
