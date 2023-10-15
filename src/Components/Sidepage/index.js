@@ -19,7 +19,7 @@ function Sidepage() {
               <HexagonOutlinedIcon/>
               <span>Dashboard</span>              
             </p>            
-            <p className='heading'>
+            <p className='heading1'>
               <KeyRoundedIcon/>
               <span>Dashboard</span>              
             </p>

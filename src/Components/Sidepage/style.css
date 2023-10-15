@@ -21,11 +21,11 @@ span{
     position: relative;
     right: 60px
 }
-.bottomtext{
+ .bottomtext{
     display: flex;
     position: absolute;
     bottom: 0px;
-}
+} 
 .textandname{
     display: flex;
     flex-direction: column;
@@ -33,14 +33,29 @@ span{
 }
 /* .bottomtext{
     background-color: lightblue;
-} */
+}  */
 .iconright{
+    position: relative;
+    left: 50px;  
+}
+/*.arrows{
+    position: relative;
+    left: 4px
+}
+.MuiSvgIcon-root{
+    position: relative;
+    left: 40px
+} */
+.heading1{
+    background-color: lightblue;
+}
+/* .iconright{
     position: relative;
     left: 50px;  
 }
 .arrows{
     position: relative;
     left: 4px
-}
+} */
 
 

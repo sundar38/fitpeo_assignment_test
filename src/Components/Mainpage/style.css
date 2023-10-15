@@ -12,10 +12,11 @@ input{
     left: 300px;
 }
 table{
-    width: 90%;
+    width: 100%;
 }
 table, tr{
     border: 1px solid black;
+   
 }
 .search{
     position: relative;
@@ -23,4 +24,8 @@ table, tr{
 }
 .chart{
     display: flex;
+}
+.textandinput{
+    display: flex;
+    justify-content: space-between;
 }
