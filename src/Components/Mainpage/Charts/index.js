@@ -45,8 +45,6 @@ function Charts() {
   }
   const options={}
 
- 
-
   return (
     <div className='bar'>
       <div className='text'>

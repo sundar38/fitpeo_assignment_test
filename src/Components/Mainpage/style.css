@@ -46,10 +46,7 @@ table, tr{
         display: flex;
         flex-direction: column;
     }
-    /* .firstrow{
-        display: flex;
-        flex-direction: column;
-    } */
+    
     .rowarrange{
         display: flex;
         flex-direction: column;

@@ -14,13 +14,7 @@ import PersonOutlineRoundedIcon from '@mui/icons-material/PersonOutlineRounded';
 function Sidepage() {
   return (
     <div>
-        <p className='sidesection'>
-          {/* <div className='checks'>
-          <input type='checkbox' id='check'></input>
-          <label for="check" className='checkbtn'>
-            <i className='fas fa-bars'></i>
-          </label>
-          </div> */}
+        <p className='sidesection'>         
             <p className='heading'>
               <HexagonOutlinedIcon/>
               <span>Dashboard</span>              
@@ -34,8 +28,7 @@ function Sidepage() {
               <ViewInArRoundedIcon/>
               <span >Product</span>  
               <KeyboardArrowRightOutlinedIcon/>        
-            </p>          
-            
+            </p>        
             <p className='heading'>
               <AccountBoxOutlinedIcon/>
               <span>Customers</span> 
@@ -64,8 +57,7 @@ function Sidepage() {
               </span>
               <p className="iconright"><KeyboardArrowDownOutlinedIcon/></p>
             </p>           
-        </p>
-        
+        </p>        
     </div>
   )
 }

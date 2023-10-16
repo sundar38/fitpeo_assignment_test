@@ -4,8 +4,7 @@
     height: 120px;
     border-radius: 10px;
     display: flex;
-    /* color: white;
-    text-shadow: 2px 2px 4px #000000; */
+    
 }
 .image{
     position: relative;
